@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGirone"
+    android:background="@drawable/cardview_style">
+
+    <ImageButton
+        android:layout_marginLeft="60dp"
+        android:id="@+id/imageView"
+        android:layout_width="74dp"
+        android:layout_height="86dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="30dp"
+        android:backgroundTint="#00000000"
+        app:srcCompat="@drawable/ic_new_logo2" />
+
+    <TextView
+        android:id="@+id/textCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/dancing"
+        android:text="@string/titolo_activity_girone"
+        android:textAlignment="viewStart"
+        android:textSize="36sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/exFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/concludi_girone"
+        android:theme="@style/AppTheme"
+        app:backgroundTint="#4B88AF" />
+
+
+</RelativeLayout>

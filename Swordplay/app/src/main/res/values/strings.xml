@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Swordplay</string>
+    <string name="extend_fab_cont">End</string>
+    <string name="End">End</string>
+
+    <string name="seleziona_arma">Seleziona l\'arma della Competizione</string>
+    <string name="Titolo">Swordplay</string>
+    <string name="subTitolo">- Fencing Competitions</string>
+    <string name="spada">spada</string>
+    <string name="sciabola">sciabola</string>
+    <string name="fioretto">fioretto</string>
+    <string name="benvenuto">Benvenuto in</string>
+    <string name="nome_arbitro_hint">Nome Arbitro</string>
+    <string name="pedana_hint">Pedana</string>
+    <string name="numero_atleti_hint">Numero Atleti</string>
+    <string name="girone_hint">Girone</string>
+    <string name="uomo">Uomo</string>
+    <string name="donna">Donna</string>
+    <string name="informazioni_competizione">Informazioni della competizione</string>
+    <string name="crea_competizione">crea competizione</string>
+    <string name="titolo_activity_girone">Swordplay</string>
+    <string name="concludi_girone">CONCLUDI GIRONE</string>
+    <string name="giovanissimi">Giovanissimi (Under 14)</string>
+    <string name="cadetti">Cadetti (14 - 17)</string>
+    <string name="giovani">Giovani (17 - 20)</string>
+    <string name="assoluti">Assoluti (Over 20)</string>
+    <string name="ToastCompetizioneUno">ATTENZIONE: dati Mancanti o errati</string>
+    <string name="ToastCompetizioneDue">ATTENZIONE: numero atleti errato</string>
+    <string name="assalto">\Assalto \</string>
+    <string name="incontro">incontro</string>
+    <string name="toastAlertBox">ATTENZIONE: non puo essere inserito un punteggio negativo</string>
+    <string name="pdf_salvato">swordplay.Pdf salvato in directory</string>
+
+</resources>
